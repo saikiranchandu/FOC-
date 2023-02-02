@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int n,sum=0,a=0,b=1,i;
+	printf("Enter the N Number");
+	scanf("%d ",&n);
+	printf("fibonnaci series :");
+	while(sum<=n)
+	{
+	printf("%d",sum);
+	a=b;
+	b=sum;
+	sum=a+b;
+	}
+}
